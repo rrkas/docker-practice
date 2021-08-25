@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  web:
+    image: rrka79wal/flask-redis-default
+    build: .
+    ports:
+      - "5000:5000"
+  redis:
+    image: "redis:alpine"

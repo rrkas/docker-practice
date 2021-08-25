@@ -20,7 +20,8 @@
 
 ## Compose
 
-1. Make `docker-compose.yml` file
+1. Follow basic steps
+2. Make `docker-compose.yml` file
    1. image name should be in the yml file, unlike the `--tag` flag in `docker build`
-2. running the compose: `docker-compose up`
-3. build compose: `docker-compose build`
+3. running the compose: `docker-compose up`
+4. build compose: `docker-compose build`
